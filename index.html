@@ -11,6 +11,13 @@
   <link rel="stylesheet" href="./dist/output.css">
 
 
+  <!-- Google Font LINKS  -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+
+
   <title>Frontend Mentor | Single Price Grid Component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -23,32 +30,80 @@
     .attribution a {
       color: hsl(228, 45%, 44%);
     }
+
+    .gFont {
+      font-family: 'Karla', sans-serif;
+    }
+
+    .bodyFontSize {
+
+      font-size: 16px;
+
+    }
+
+.color1{
+  background-color: hsl(179, 62%, 43%);
+}
+.color5{
+  background-color: rgba(74,190,189,255);
+}
+
+.color2{
+  background-color:  hsl(71, 73%, 54%);
+}
+
+
+
+.color3{
+  background-color:  hsl(204, 43%, 93%);
+}
+
+.color4{
+  background-color:   hsl(218, 22%, 67%);
+}
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
   </style>
 </head>
 
 
 
 
-<body class="bg-gray-200">
-<div class="flex flex-col w-full h-screen items-center justify-center">
-  <div class="max-w-lg shadow-2xl mx-6 mt-[280px] md:mx-0 md:mt-0">
+<body class="bodyFontSize  gFont ">
+  <div class="flex flex-col w-full h-screen items-center justify-center ">
+    <div class="max-w-lg shadow-2xl mx-6 mt-[280px] md:mx-0 md:mt-0">
 
-    <!-- first -->
-    <div class="col-span-2 bg-white rounded-t-md">
-      <div class="p-5 space-y-3">
-        <h1 class="text-cyan-500 font-semibold text-xl">Join our community</h1>
+      <!-- first -->
+      <div class="col-span-2 bg-white rounded-t-md ">
+        <div class="p-5 space-y-3">
+          <h1 class="text-cyan-500 font-semibold text-xl">Join our community</h1>
 
-        <h1 class="text-yellow-500">30-day, hassle-free money back guarantee</h1>
+          <h1 class="text-yellow-500">30-day, hassle-free money back guarantee</h1>
 
-        <p class="text-gray-600 text-sm leading-loose">Gain access to our full library of tutorials along with expert
-          code reviews. Perfect for any developers who are serious about honing their skills.</p>
+          <p class="text-gray-600 text-sm leading-loose">Gain access to our full library of tutorials along with expert
+            code reviews. Perfect for any developers who are serious about honing their skills.</p>
+        </div>
       </div>
-    </div>
-    <!-- 2nd -->
-    <div class="flex flex-col md:flex-row">
+      <!-- 2nd -->
+      <div class="flex flex-col md:flex-row text-white">
 
-        <div class="bg-cyan-400 p-5 flex flex-col w-full md:w-1/2 md:rounded-bl-md">
-          <h1 class="font-bold">Monthly Subscription</h1>
+        <div class="color1 p-5 flex flex-col w-full md:w-1/2 md:rounded-bl-md">
+          <h1 class="font-bold text-xl">Monthly Subscription</h1>
           <div class="pt-2 pb-4">
             <div class="flex items-center space-x-4">
               <h1 class="text-2xl font-semibold">&dollar;29</h1>
@@ -56,11 +111,11 @@
             </div>
             <p>Full access for less than &dollar;1 a day</p>
           </div>
-          <button class="bg-yellow-400 p-2 rounded-md">Sign Up</button>
+          <button class="color2 p-2 rounded-md">Sign Up</button>
         </div>
 
 
-        <div class="bg-cyan-500 p-5 w-full md:w-1/2 pb-14 rounded-b-md md:rounded-bl-none">
+        <div class="color5 p-5 w-full md:w-1/2 pb-14 rounded-b-md md:rounded-bl-none">
           <h1 class="text-xl font-bold pb-5">Why Us</h1>
           <p>
             Tutorials by industry experts
@@ -73,18 +128,18 @@
           </p>
         </div>
 
+      </div>
+
     </div>
 
+    <footer class="">
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Sagar</a>.
+      </p>
+    </footer>
   </div>
-  
-  <footer class="">
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Sagar</a>.
-    </p>
-  </footer>
-</div>
- 
+
 
 
 
